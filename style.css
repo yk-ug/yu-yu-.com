@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Kosugi Maru', sans-serif;
+    background-color:aliceblue;
+}
+header{
+    background-color:rgb(176, 238, 52);
+}
+
+header h1 {
+    font-size: 40px;
+    padding: 20px 0px;
+}
+input {
+    font-size: 45px;
+}
+.block {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+input[value="○"]{
+    color: red;
+}
+input[value="×"]{
+    color: blue;
+}
+#reset {
+    font-size: 22px;
+    background-color: powderblue;
+    font-family: 'Kosugi Maru', sans-serif;
+    border: none;
+    padding: 15px 15px;
+}
+#reset:hover {
+    background-color: rgb(117, 149, 153);
+}
+footer {
+    background-color:bisque;
+}
+.logo {
+    font-size: 30px;
+    padding-top: 10px;
+}
+.syamei {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
